@@ -1,0 +1,108 @@
+.card{
+	display: flex;
+	align-items: center;
+}
+
+.cardContent{
+	width: 70%;
+}
+
+.commentCardSend{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 3%;
+	padding: 10px;
+	width: 50%;
+  }
+
+.messageCardSend{
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.description{
+	display: flex;
+	padding: 12px;
+	margin: 10px
+}
+
+.goodImg{
+	width: 100%;
+	border-radius: 4px;
+	max-height: 500px;
+}
+
+.cardRoot{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.commentCard{
+	margin: 3%;
+	width: 50%;
+}
+
+
+.mainGood{
+	background-color: #EEEFF1;
+    padding: 26px 36px 20px 36px;
+}
+
+
+
+@media only screen and (max-width: 470px) {
+	.cardRoot{
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+
+	.mainGood{
+		background-color: #EEEFF1;
+		padding: 26px 16px 20px 16px;
+	}
+	
+}
+
+
+@media only screen and (max-width: 660px) {
+	.card{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.commentCardSend{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin: 3%;
+		padding: 10px;
+		width: 90%;
+	  }
+
+	.commentCard{
+		margin: 3%;
+		width: 90%;
+	}
+	
+}
+
+@media only screen and (min-width: 868px) {
+	.card{
+		display: flex;
+		align-items: center;
+	}
+	
+}
+
+@media only screen and (min-width: 1100px) {
+	.card{
+		display: flex;
+		align-items: center;
+	}
+	
+}

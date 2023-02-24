@@ -1,0 +1,27 @@
+.mainMessage{
+    display: flex;
+    margin-top: 65px;
+    height: 500px;
+    justify-content: center;
+    background-color: #EEEFF1;
+    padding: 26px 36px 100px 36px;
+}
+
+.messageList{
+    width: 70%;
+}
+
+.userList{
+    width: 30%;
+    margin-right: 5px;
+}
+
+.divButtonText{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.userColor{
+    color: rgb(0, 0, 0);
+}
+
