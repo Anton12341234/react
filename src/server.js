@@ -1,7 +1,7 @@
 import express from 'express'
 import path from 'path'
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 const app = express()
 app.use(express.static(__dirname))
