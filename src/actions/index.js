@@ -1,6 +1,6 @@
 import {actionPromise, gql,origUrl} from '../App';
 
-const bd_Url = "https://cryptic-atoll-47501.herokuapp.com/"
+const bd_Url = "http://localhost:5000/"
 
 
 
